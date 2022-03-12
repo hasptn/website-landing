@@ -1,0 +1,153 @@
+.jumbotron {
+    font-size: 20px;
+    padding: 60px;
+    background: linear-gradient(-45deg, #e928e9, #034078, #23a6d5, #09ff00);
+    text-align: center;
+    color: white;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+}
+
+h2 {
+    color: #070707;
+    text-align: center;
+}
+
+p {
+    font-size: 15px;
+}
+
+figcaption {
+    font-size: 13px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+}
+
+li {
+    float: left;
+}
+
+li a,
+.dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+li a:hover,
+.dropdown:hover .dropbtn {
+    background-color: rgb(255, 0, 0);
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ff0000
+}
+
+.show {
+    display: block;
+}
+
+.profile header {
+    text-align: center;
+}
+
+.profile img {
+    width: 190px;
+}
+
+.featured-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+iframe {
+    width: 190px;
+}
+
+.card {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#content {
+    float: right;
+    width: 75%;
+}
+
+aside {
+    float: left;
+    width: 25%;
+    padding-right: 25px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1000px) {
+
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+hr {
+    border: 2px solid red;
+}
+
+footer {
+    padding: 18px;
+    color: white;
+    background: linear-gradient(-45deg, #e928e9, #034078, #23a6d5, #09ff00);
+    text-align: center;
+    font-weight: bold;
+}
+
+footer a {
+    color: white;
+    font-weight: bold;
+}
